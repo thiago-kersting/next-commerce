@@ -3,7 +3,7 @@
 import { useCartStore } from "@/store"
 import { ProductType } from "@/types/ProductType";
 
-export default function AddCart({product}: {product: ProductType}) {
+export default function AddCart({ product }: { product: ProductType }) {
     const { addProduct } = useCartStore();
 
     return (
